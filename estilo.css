@@ -1,5 +1,6 @@
 body {
-  background: rgb(133, 108, 100)
+  margin: 0;
+  padding: 0;
 }
 h1 {
   text-align: center;
@@ -14,13 +15,13 @@ h1 {
 }
 .menuPrincipal {
   position: absolute;
-  background: rgb(158, 104, 155);
+  background: #9319FA;
   width: 100%;
-  height: 100px;
+  height: 45px;
   top: 0pt;
-  left: 0%;
+  left: 0;
 }
-nav ul {
+nav ul {  
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -29,15 +30,51 @@ nav ul {
 li {
   float: left;
 }
-li a { 
+li a {
   display: block;
-  color: rgb(209, 209, 24);
+  color:rgb(231, 231, 176);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
 }
 li a:hover{
-  background: rgb(69, 236, 69);
+  background:#4BA8FA;
   color: black;
+} 
+.imgEstudo {
+    position: absolute;
+    width: 90%;
+    height: 120px;
+    background: #ade0e2;
+    top: 45px;
+    left: 0;
+    margin: 20px;
+    border-color: rgb(235, 240, 235);
+    border-width: 20px;
+    border-style: solid;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#aguia {
+   width: 20%;
+}
+.rodape {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+   background: #FAA825;
+   color:#030303;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   font-size: 26px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.conteudo {
+  position: absolute;
+  top: 45px;
 }
